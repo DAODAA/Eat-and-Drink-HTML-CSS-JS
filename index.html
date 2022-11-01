@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Restaurant Eat & Drink </title>
+
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/res-logo.png" alt="logo_eat&drink">
+            <figcaption>Eat & Drink</figcaption>
+        </div>
+        <nav>
+            <ul id="navigation">
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="./pages/repas.html">Repas</a>
+                </li>
+                <li>
+                    <a href="./pages/panier.html">Panier</a>
+                </li>
+                <li>
+                    <a href="./pages/contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="./pages/inscription.html">Inscrivez-vous</a>
+                </li>
+                <li>
+                    <a href="./pages/connexion.html">Connexion</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="PanierProfil">
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            <i class="fa-solid fa-0" style="color:#df2020;" id="icone"></i>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-bars" id="bars"></i>
+
+        </div>
+    </header>
+    <main>
+        <div id="publicité">
+            <div id="pub">
+                <p>Commande Rapide et Express</p>
+                <p id="demande">
+                    Avez-vous faim? <br>
+                    Attendez juste la nourriture à votre porte
+                </p>
+                <p>
+                    Jamais trop de frites, Une pépite de poulet est ce qu'il vous faut, <br>
+                    Savourez la saveur, C'est le jour de la triche, n'aie pas peur.
+                </p>
+                <button>Commandez maintenant</button>
+                <div id="livrePaie">
+                    <div id="livraison">
+                        <i class="fa-solid fa-car" style="color: #df2020;"></i>
+                        <span>Livraison gratuite</span>
+                    </div>
+                    <div id="paiement">
+                        <i class="fa-solid fa-circle-check" style="color: #df2020;"></i>
+                        <span>Paiement 100% sécurisé</span>
+                    </div>
+                </div>
+            </div>
+            <div id="hero"><img src="images/hero.png" alt="image_hero"></div>
+        </div>
+        <div id="typesPlats">
+            <div>
+                <img src="images/category-01.png" alt="burger_icon">
+                <figcaption>Burger</figcaption>
+            </div>
+            <div>
+                <img src="images/category-02.png" alt="pizza_icon">
+                <figcaption>Pizza</figcaption>
+            </div>
+            <div>
+                <img src="images/category-03.png" alt="spaghetti_icon">
+                <figcaption>Spaghetti Sauté</figcaption>
+            </div>
+            <div>
+                <img src="images/category-04.png" alt="viande_icon">
+                <figcaption>Viande</figcaption>
+            </div>
+        </div>
+        <div id="présentation">
+            <span id="Service">
+                Ce que nous servons
+            </span> <br>
+
+            <span id="position">
+                Restez simplement à la maison <br>
+                Nous allons prendre soin de vous
+            </span> <br>
+
+            <span id="atout">
+                <span>Eat & Drink</span> est le lieu indiqué pour découvrir les meilleurs saveurs,<br>
+                les meilleurs goûts et les spécialités diverses avec un service traiteur de qualité. <br>
+                Nous sommes ouvert tous les jours de 06h à 23h et vous pouvez tout de même réserver <br>
+                pour un
+                événement spécial.
+            </span>
+        </div>
+        <div id="services">
+            <div>
+                <img src="images/service-01.png" alt="service_livraison1">
+                <figcaption>Livraison Rapide</figcaption>
+                <p>
+                    Nous livrons rapidement vos commandes partout à travers la ville!
+                    Il vous suffit d'appeler pour vous faire livrer.
+                </p>
+            </div>
+            <div>
+                <img src="images/service-03.png" alt="service_livraison2">
+                <figcaption>Super Repas</figcaption>
+                <p>
+                    Pas besoin de spéculer, une fois que vous avez fini de déguster,
+                    nous serons toujours à votre service pour ramasser
+                    le materiel.
+                </p>
+            </div>
+            <div>
+                <img src="images/service-02.png" alt="service_livraison3">
+                <figcaption>Ramassage Express</figcaption>
+                <p>
+                    Nous avons tout ce dont vous avez rapidement
+                    besoin pour reprendre de l'énergie, il suffit de parcourir
+                    nos menus!
+                </p>
+            </div>
+        </div>
+        <div id="catégories">
+            <h2>Popular Foods</h2>
+            <nav id="foodsNav">
+                <ul>
+                    <li><a href="#catégories_plats" id="menuRepas">All</a></li>
+                    <li><img src="images/hamburger.png" alt="Burger">
+                        <a href="#burger">Burger</a>
+                    </li>
+                    <li>
+                        <img src="images/piza.png" alt="Pizza">
+                        <a href="#pizza">Pizza</a>
+                    </li>
+                    <li>
+                        <img src="images/soda1.png" alt="Drinks">
+                        <a href="#drinks">Drinks</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="burger">
+            <h2>Burgers</h2>
+            <div class="ligne">
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Chicken_burger.jpg" alt="Chicken_burger" width="300" height="300">
+                        <figcaption>Chicken burger</figcaption>
+                    </div>
+                    <div>
+                        <span>3000 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Royal_cheese_burger.jpg" alt="Royal_cheese_burger">
+                        <figcaption>Royal Cheese Burger</figcaption>
+                    </div>
+                    <div>
+                        <span>1500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Classic_Hamburger.jpg" alt="Classic_Hamburger">
+                        <figcaption>Classic Hamburger</figcaption>
+                    </div>
+                    <div>
+                        <span>3000 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ligne">
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Cheese_Burger.jpg" alt="Cheese_Burger">
+                        <figcaption>Cheese Burger</figcaption>
+                    </div>
+                    <div>
+                        <span>1500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Vegetarian_Pizza.jpg" alt="Vegetarian_Pizza">
+                        <figcaption>Vegetarian Pizza</figcaption>
+                    </div>
+                    <div>
+                        <span>4500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Chicken_Buger.jpg" alt="Chicken_Burger">
+                        <figcaption>Chicken Burger</figcaption>
+                    </div>
+                    <div>
+                        <span>3000 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="pizza">
+            <h2>Hot Pizza</h2>
+            <div class="ligne">
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Mexican_Green_Cheese.png" alt="Mexican_Green_Wave">
+                        <figcaption>Mexican Green Wave</figcaption>
+                    </div>
+                    <div>
+                        <span>3000 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Double_Cheese_Margherita.jpg" alt="Double_Cheese_Margherita">
+                        <figcaption>Double Cheese Margherita</figcaption>
+                    </div>
+                    <div>
+                        <span>4500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Pizza_With_Mushroom.jpg" alt="Pizza_With_Mushroom">
+                        <figcaption>Pizza With Mushroom</figcaption>
+                    </div>
+                    <div>
+                        <span>4500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="drinks">
+            <h2>Drinks</h2>
+            <div class="ligne">
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Coca_Cola.jpg" alt="Coca_Cola">
+                        <figcaption>Coca Cola</figcaption>
+                    </div>
+                    <div>
+                        <span>1500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Fanta.png" alt="Fanta">
+                        <figcaption>Fanta</figcaption>
+                    </div>
+                    <div>
+                        <span>1500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+                <div class="produit">
+                    <div class="imgTitre">
+                        <img src="images/Pepsi.jpg" alt="Pepsi">
+                        <figcaption>Pepsi</figcaption>
+                    </div>
+                    <div>
+                        <span>1500 fcfa</span>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer">
+            <div id="logo">
+                <img src="images/res-logo.png" alt="logo_eat&drink">
+                <figcaption>Eat & Drink</figcaption>
+                <p>
+                    Jamais trop de frites, une pépite de poulet est ce qu'il vous
+                    faut, savourez la saveur, c'est le jour de la triche, n'aie
+                    pas peur.
+                </p>
+            </div>
+            <div>
+                <div id="planning">
+                    <h3>Heure de livraison</h3>
+                </div>
+                <div>
+                    <p class="bold">Dimanche-Lundi</p>
+                    <span>10:00-23:00 </span>
+                </div>
+                <div>
+                    <p class="bold">Vendredi-Samedi</p>
+                    <span>Fermé</span>
+                </div>
+            </div>
+            <div id="contacts">
+                <div>
+                    <h3>Contact</h3>
+                </div>
+                <div>
+                    <p class="bold">Yaoundé CMR Ngoa-Ekélé</p>
+                </div>
+                <div>
+                    <p class="bold">Phone:+237 695996536</p>
+                    <p class="bold">Email:eatdrink@email.com</p>
+                </div>
+            </div>
+            <div id="newsletter">
+                <div>
+                    <h3>Newsletter</h3>
+                </div>
+                <div>
+                    <p>Abonnez-vous à notre newsletter</p>
+                </div>
+                <div>
+                    <input type="mail" value="votre email">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="social">
+            <ul id="socialNet">
+                <li>
+                    <span>Nous suivre</span>
+                </li>
+                <li>
+                    <a href="#" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="youtube"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Roboto-Black.ttf) format('tff');
+}
+
+
+body {
+    font-family: 'Roboto-Black', sans-serif;
+    box-sizing: content-box;
+    overflow: auto;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body ul {
+    list-style: none;
+}
+
+#publicité div button {
+    color: white;
+    background-color: #df2020;
+    border-style: none;
+    padding: 2% 10%;
+    border-radius: 50px;
+    font-size: large;
+}
+
+#publicité div button:hover,
+.ligne button:hover {
+    background-color: #212245;
+}
+
+#publicité {
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 7% 0.5% 7%;
+}
+
+header ul {
+    display: flex;
+}
+
+#PanierProfil span {
+    font-size: x-small;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #df2020;
+    color: white;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+#navigation li a {
+    color: #333;
+}
+
+#navigation li a:hover {
+    color: #df2020;
+}
+
+#logo :nth-child(2) {
+    font-size: larger;
+}
+
+#logo img {
+    width: 55px;
+    height: 55px;
+}
+
+#hero img {
+    width: 400px;
+    height: 400px;
+}
+
+#publicité #demande::first-line {
+    text-transform: uppercase;
+    color: #df2020;
+    font-size: x-large;
+}
+
+#publicité #demande {
+    font-weight: bold;
+}
+
+#publicité #pub {
+    font-size: larger;
+}
+
+#livrePaie {
+    display: flex;
+    font-size: medium;
+    margin-top: 2%;
+}
+
+#livraison {
+    padding-right: 2%;
+}
+
+#typesPlats {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+
+#typesPlats div {
+    background-color: rgb(252, 165, 165);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1% 3% 1% 2%;
+    border-radius: 10px;
+    width: 13%;
+}
+
+#typesPlats div img {
+    width: 50px;
+    height: 50px;
+}
+
+#présentation {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 3%;
+}
+
+#présentation #Service {
+    color: #df2020;
+    font-size: xx-large;
+}
+
+#icone {
+    position: relative;
+    top: -10px;
+}
+
+#position {
+    font-size: xx-large;
+}
+
+#atout {
+    font-size: large;
+    text-align: justify;
+}
+
+#atout span {
+    color: #212245;
+    font-weight: bold;
+}
+
+#services {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#services div img {
+    width: 100px;
+    height: 100px;
+}
+
+#services div {
+    width: 250px;
+}
+
+#services figcaption {
+    font-size: large;
+}
+
+#catégories h2 {
+    text-align: center;
+}
+
+#foodsNav ul li img {
+    width: 30px;
+    height: 30px;
+}
+
+#foodsNav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #df2020;
+    border-radius: 5px;
+    padding: 10px;
+    align-content: center;
+}
+
+#foodsNav li a {
+    color: white;
+    margin-left: 5%;
+}
+
+#foodsNav li {
+    margin: 0% 1%;
+    display: flex;
+    align-items: center;
+}
+
+#foodsNav #menuRepas {
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    border-style: none;
+    font-size: small;
+    padding: 5px 15px;
+}
+
+.ligne .produit .imgTitre img {
+    width: 200px;
+    height: 200px;
+}
+
+.ligne {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#catégories h2,
+#burger h2,
+#pizza h2,
+#drinks h2 {
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+#burger,
+#pizza,
+#drinks {
+    text-align: center;
+}
+
+.ligne div :nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ligne button {
+    color: white;
+    background-color: #df2020;
+    border-style: none;
+    border-radius: 50px;
+    padding: 5% 10%;
+}
+
+.produit span {
+    color: #df2020;
+    font-weight: bold;
+
+}
+
+.ligne .produit:hover {
+    position: relative;
+    top: -15px;
+}
+
+.ligne .produit {
+    border: 1px solid rgb(252, 165, 165);
+    padding: 5% 5% 2% 5%;
+    margin-bottom: 2%;
+    width: 250px;
+}
+
+.ligne figcaption {
+    font-size: large;
+    padding: 0% 10% 10% 20%;
+    margin-bottom: 10%;
+}
+
+footer {
+    background-color: rgb(255, 228, 228);
+    padding: 1%;
+}
+
+footer .bold {
+    font-weight: bold;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer #logo img {
+    margin-left: 5%;
+    width: 55px;
+    height: 55px;
+}
+
+#logo figcaption {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#footer div {
+    width: 250px;
+}
+
+#socialNet {
+    display: flex;
+    justify-content: center;
+}
+
+#socialNet i {
+    color: #df2020;
+}
+
+#socialNet li {
+    padding: 0% 0.5% 0.3% 0.5%;
+}
+
+#newsletter input {
+    border-radius: 20px;
+    border-style: none;
+    padding: 3%;
+    text-align: center;
+}
+
+#logo p {
+    text-align: justify;
+}
+
+hr {
+    width: 1000px;
+}
+
+#bars {
+    display: none;
+}
+
+@media (max-width:767px) {
+    header nav {
+        display: none;
+    }
+
+    #PanierProfil {
+        display: flex;
+        justify-content: center;
+    }
+
+    #bars {
+        display: block;
+    }
+
+    .ligne .produit {
+        display: block;
+    }
+
+    #publicité {
+        display: block;
+        text-align: center;
+    }
+
+    #livrePaie {
+        display: flex;
+        justify-content: center;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    #typesPlats div {
+        margin: 0.5%;
+        padding: 2% 3%;
+    }
+
+    .ligne {
+        display: block;
+    }
+
+    .ligne .produit {
+        margin-left: 15%;
+    }
+
+    #services p {
+        text-align: justify;
+        margin: 0% 5%;
+    }
+
+    #services {
+        display: block;
+        margin-left: 25%;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        flex-wrap: wrap;
+        max-width: 100vw;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    #PanierProfil {
+        display: flex;
+        justify-content: center;
+    }
+
+    #bars {
+        display: none;
+    }
+
+    body {
+        flex-wrap: wrap;
+        max-width: 100vw;
+    }
+
+    #logo {
+        margin-right: 2%;
+    }
+
+    .ligne .produit {
+        width: 22%;
+        height: 5%;
+    }
+
+    footer #contacts,
+    footer #newsletter {
+        margin-left: -5%;
+    }
+
+    footer {
+        overflow: auto;
+    }
+
+}

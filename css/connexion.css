@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/Roboto-Black.ttf) format('tff');
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+header {
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+
+#navigation li {
+    margin: 2%;
+}
+
+#navigation li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    color: #df2020;
+}
+
+#logo :nth-child(2) {
+    font-size: larger;
+}
+
+#logo img {
+    width: 55px;
+    height: 55px;
+}
+
+
+footer {
+    background-color: rgb(255, 228, 228);
+    padding-top: 1%;
+}
+
+footer .bold {
+    font-weight: bold;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer #logo img {
+    margin-left: 5%;
+    width: 55px;
+    height: 55px;
+}
+
+#logo figcaption {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#footer div {
+    width: 250px;
+}
+
+#socialNet {
+    display: flex;
+    justify-content: center;
+}
+
+#socialNet i {
+    color: #df2020;
+}
+
+#socialNet li {
+    padding: 0% 0.5% 0.3% 0.5%;
+    list-style: none;
+}
+
+#newsletter input {
+    border-radius: 20px;
+    border-style: none;
+    padding: 3%;
+    text-align: center;
+}
+
+#logo p {
+    text-align: justify;
+}
+
+
+
+hr {
+    width: 1000px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0%;
+    background-color: rgb(255, 228, 228);
+}
+
+#forme {
+    margin: 5% 20%;
+}
+
+main h1 {
+    background-image: url(../assets/image.jpg);
+    padding: 5%;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main form button {
+    background-color: #df2020;
+    color: white;
+    padding: 10% 20%;
+    border-radius: 5px;
+    border-style: none;
+    width: 150%;
+    margin-top: 25%;
+    font-size: large;
+}
+
+main form button:hover {
+    background-color: #212245;
+}
+
+.formulaire input {
+    width: 300px;
+    padding: 3%;
+    background-color: rgb(255, 228, 228);
+}

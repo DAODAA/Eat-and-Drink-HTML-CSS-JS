@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/inscription.css">
+    <title>Inscription chez eat and drink restaurant</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <img src="../images/res-logo.png" alt="logo_eat&drink">
+            <figcaption>Eat & Drink</figcaption>
+        </div>
+        <nav>
+            <ul id="navigation">
+                <li>
+                    <a href="../index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="./repas.html">Repas</a>
+                </li>
+                <li>
+                    <a href="./Panier.html">Panier</a>
+                </li>
+                <li>
+                    <a href="./Contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="inscription.html">Inscrivez-vous</a>
+                </li>
+                <li>
+                    <a href="./connexion.html">Connexion</a>
+                </li>
+            </ul>
+        </nav>
+        <div>
+            <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+            <i class="fa-solid fa-0"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </header>
+    <main>
+        <h1>Inscription</h1>
+        <div id="forme">
+            <form action="" method="">
+                <div class="formulaire">
+                    <div><label for="prenom">Prenom</label></div>
+                    <div><input type="text" id="prenom" name="prenom" required title="Veuillez renseigner votre prénom">
+                    </div>
+                </div>
+
+                <div class="formulaire">
+                    <div><label for="nom">Nom</label></div>
+                    <div><input type="text" id="nom" name="nom" required title="Veuillez renseigner votre nom"></div>
+                </div>
+
+                <div class="formulaire">
+                    <div><label for="mail">E-mail</label></div>
+                    <div><input type="email" id="mail" name="mail" required title="Veuillez renseigner votre email">
+                    </div>
+                </div>
+
+                <div class="formulaire">
+                    <div><label for="password">Mot de Passe</label></div>
+                    <div><input type="password" id="password" name="password" required minlength="8"
+                            title="Ce champ est obligatoire"></div>
+                </div>
+
+                <div class="formulaire">
+                    <div><label for="confirmPw">Confirmation du mot de passe</label></div>
+                    <div><input type="password" id="confirmPw" name="confirmPw" required minlength="8"
+                            title="Ce champ est obligatoire"></div>
+                </div>
+
+                <div class="formulaire">
+                    <div><label for="localite">Vous residez dans quel quartier de la ville de Yaoundé?</label></div>
+                    <div><input type="radio" id="localite" name="localite" required></div>
+                </div>
+
+                <div class="formulaire" id="blocCondition" title="Veuillez accepter les conditions d'utilisation">
+                    <i class="fa-solid fa-circle-check" id="btnCondition"></i>
+                    <span>J'ai lu et j'accepte les conditions d'utilisation</span>
+                </div>
+                <div><button>Inscription</button></div>
+            </form>
+            <div>
+                <p><span id="spanConnect">Vous avez déjà un compte?</span><a href="./connexion.html" id="connect"
+                        style="color:#df2020">Connectez-vous ici</a>
+                </p>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div id="footer">
+            <div id="logo">
+                <img src="../images/res-logo.png" alt="logo_eat&drink">
+                <figcaption>Eat & Drink</figcaption>
+                <p>
+                    Jamais trop de frites, une pépite de poulet est ce qu'il vous
+                    faut, savourez la saveur, c'est le jour de la triche, n'aie
+                    pas peur.
+                </p>
+            </div>
+            <div>
+                <div id="planning">
+                    <h3>Heure de livraison</h3>
+                </div>
+                <div>
+                    <p class="bold">Dimanche-Lundi</p>
+                    <span>10:00-23:00 </span>
+                </div>
+                <div>
+                    <p class="bold">Vendredi-Samedi</p>
+                    <span>Fermé</span>
+                </div>
+            </div>
+            <div id="contacts">
+                <div>
+                    <h3>Contact</h3>
+                </div>
+                <div>
+                    <p class="bold">Yaoundé CMR Ngoa-Ekélé</p>
+                </div>
+                <div>
+                    <p class="bold">Phone:+237 695996536</p>
+                    <p class="bold">Email:eatdrink@email.com</p>
+                </div>
+            </div>
+            <div id="newsletter">
+                <div>
+                    <h3>Newsletter</h3>
+                </div>
+                <div>
+                    <p>Abonnez-vous à notre newsletter</p>
+                </div>
+                <div>
+                    <input type="mail" value="votre email">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="social">
+            <ul id="socialNet">
+                <li>
+                    <span>Nous suivre</span>
+                </li>
+                <li>
+                    <a href="#" title="facebook"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="twitter"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                </li>
+                <li>
+                    <a href="#" title="youtube"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../js/inscription.js"></script>
+</body>
+
+</html>

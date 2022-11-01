@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/Roboto-Black.ttf) format('tff');
+}
+
+body {
+    font-family: roboto, sans-serif;
+}
+
+header {
+    color: #333;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+
+#navigation li {
+    margin: 2%;
+}
+
+#navigation li a {
+    color: #333;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    color: #df2020;
+}
+
+#logo :nth-child(2) {
+    font-size: larger;
+}
+
+#logo img {
+    width: 55px;
+    height: 55px;
+}
+
+main h1 {
+    background-image: url(../images/image.jpg);
+    color: white;
+    padding: 5%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main #rechercher {
+    margin: 3%;
+}
+
+main #rechercher input {
+    padding: 1%;
+    width: 30%;
+    border: 1px solid rgb(252, 165, 165);
+}
+
+footer {
+    background-color: rgb(255, 228, 228);
+    padding-top: 1%;
+}
+
+footer .bold {
+    font-weight: bold;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer #logo img {
+    margin-left: 5%;
+    width: 55px;
+    height: 55px;
+}
+
+#logo figcaption {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#footer div {
+    width: 250px;
+}
+
+#socialNet {
+    display: flex;
+    justify-content: center;
+}
+
+#socialNet i {
+    color: #df2020;
+}
+
+#socialNet li {
+    padding: 0% 0.5% 0.3% 0.5%;
+    list-style: none;
+}
+
+#newsletter input {
+    border-radius: 20px;
+    border-style: none;
+    padding: 3%;
+    text-align: center;
+}
+
+#logo p {
+    text-align: justify;
+}
+
+
+
+hr {
+    width: 1000px;
+}
